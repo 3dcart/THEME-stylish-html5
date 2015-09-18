@@ -10,7 +10,6 @@
 	opacity: 1.0;
 }
 .flex-direction-nav .flex-prev {
-	left: 25px!important;
 	color: #fff;
 	opacity: 1.0;
 }
@@ -20,7 +19,9 @@
     -o-transition: color 0 ease-in;
     transition: none;
 }
-
+.flex-direction-nav a{
+	width:15px !important;
+}
 /*body:: Controls website background and any other text outside of a table without an associated style.*/ 	
 body {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
