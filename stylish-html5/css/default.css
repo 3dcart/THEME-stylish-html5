@@ -1406,6 +1406,16 @@ body {
     width: 100%;
 	padding: 0 20px;
 }
+.top-menu ul,
+.cbp-spmenu-left.cbp-spmenu-open{
+	overflow:hidden !important;
+}
+
+.simplemodal-wrap{
+	padding-top:30px !important;
+
+	padding-bottom:60px !important;
+}
 #leftBar {
     display: none !important;
     margin: 0;
@@ -1676,6 +1686,7 @@ li.m-search {
 .cbp-spmenu-left.cbp-spmenu-open {
 	left: 0;
     z-index: 1050;
+	overflow:scroll;
 }
 .cbp-spmenu-right.cbp-spmenu-open {
 	right: 0;
