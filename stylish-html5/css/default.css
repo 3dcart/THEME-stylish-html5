@@ -10,7 +10,6 @@
 	opacity: 1.0;
 }
 .flex-direction-nav .flex-prev {
-	left: 25px!important;
 	color: #fff;
 	opacity: 1.0;
 }
@@ -20,7 +19,9 @@
     -o-transition: color 0 ease-in;
     transition: none;
 }
-
+.flex-direction-nav a{
+	width:15px !important;
+}
 /*body:: Controls website background and any other text outside of a table without an associated style.*/ 	
 body {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -33,6 +34,17 @@ body {
 }
 img {
 	border: 0;
+}
+#FRAME_LINKS{
+	width: 60%;
+    float: right;
+    text-align: right;
+}
+#modLinks{
+	float:right;
+}
+#modLinks ul{
+	width:100% !important;
 }
 input,
 textarea,
@@ -1140,7 +1152,7 @@ footer .col2 {
 }
 #modLinks li {
 	float: left;
-	width: 50%;
+	padding:0 6px;
 }
 #mailistBox label {
 	color: #000;
@@ -1394,6 +1406,14 @@ body {
     width: 100%;
 	padding: 0 20px;
 }
+.top-menu ul,
+.cbp-spmenu-left.cbp-spmenu-open{
+	overflow:scroll
+}
+.simplemodal-wrap{
+	padding-top:30px !important;
+	padding-bottom:60px !important;
+}
 #leftBar {
     display: none !important;
     margin: 0;
@@ -1450,7 +1470,7 @@ li.m-search {
 	display: none;
 }
 .bottom-bar .right {display: none;}
-.bottom-bar .left {width: 100%;}
+/*.bottom-bar .left {width: 100%;}*/
 
 /*	Responsive Navigation Menu
 	--------------------------	*/
@@ -1664,6 +1684,7 @@ li.m-search {
 .cbp-spmenu-left.cbp-spmenu-open {
 	left: 0;
     z-index: 1050;
+	overflow:scroll;
 }
 .cbp-spmenu-right.cbp-spmenu-open {
 	right: 0;
@@ -1724,6 +1745,7 @@ body {
 	margin: auto;
 	padding: 0 20px;
 }
+.bottom-bar .left {width: 100%;}
 nav#catNavMenu {
     border: none;
     margin: 0;
@@ -1868,6 +1890,12 @@ footer .col3 {
 	text-align: center;
 	margin-bottom: 25px;
     width: 100%;
+}
+#modLinks{
+	float:none;
+}
+#FRAME_LINKS{
+	width:100%;
 }
 
 }
