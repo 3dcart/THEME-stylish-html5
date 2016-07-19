@@ -34,6 +34,9 @@ body {
 img {
 	border: 0;
 }
+#globalFooter {
+    margin: 15px 0 15px;
+}
 input,
 textarea,
 select,
